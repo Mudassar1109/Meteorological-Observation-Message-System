@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -182,3 +183,11 @@
     border-right-color: var(--border);
   }
 }
+=======
+.working-heading {
+  color: #3b82f6;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+>>>>>>> cf8df7065f720afa8d00029134f959a5afcdc581

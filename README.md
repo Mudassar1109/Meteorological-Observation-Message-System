@@ -1,6 +1,10 @@
 # React + TypeScript + Vite
 
+<<<<<<< HEAD
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=======
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+>>>>>>> cf8df7065f720afa8d00029134f959a5afcdc581
 
 Currently, two official plugins are available:
 
@@ -11,6 +15,7 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+<<<<<<< HEAD
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
@@ -73,3 +78,24 @@ export default defineConfig([
 ])
 
 ```
+=======
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+
+```json
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
+```
+
+See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+>>>>>>> cf8df7065f720afa8d00029134f959a5afcdc581

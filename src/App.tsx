@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -120,3 +121,12 @@ function App() {
 }
 
 export default App
+=======
+import './App.css'
+
+function App() {
+  return <h1 className="working-heading">MOMS WORKING</h1>
+}
+
+export default App
+>>>>>>> cf8df7065f720afa8d00029134f959a5afcdc581
